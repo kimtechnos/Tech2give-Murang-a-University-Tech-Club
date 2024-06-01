@@ -7,6 +7,7 @@
   place-content: center;
   padding: 1rem 0;
 }
+
 .hero::before {
   content: "";
   position: absolute;
@@ -98,25 +99,81 @@
   }
 }
 
-/* .hero-textbox {
-    position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    padding: 20px;
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 2rem auto;
+  gap: 2rem;
+  background-color: var(--color-white-color-white-light);
+  border: 0.5rem solid var(--color-black-light);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.about-image {
+  flex: 1 1 40%;
+  max-width: 100%;
+}
+
+.about img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-textbox {
+  flex: 1 1 50%;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-textbox-subtitle {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--color-primary-light);
+  font-size: 4rem;
+}
+
+.about-textbox-content {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.about-textbox p {
+  font-size: 1.2rem;
+  line-height: 3;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 62em) {
+  .about {
+    flex-direction: column;
+    padding: 1rem;
   }
-  
-  .hero-ctas a {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+
+  .about-image,
+  .about-textbox {
+    flex: 1 1 100%;
+    max-width: 100%;
   }
-  
-  .hero-ctas a:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-  } */
+
+  .about-textbox {
+    padding: 1rem;
+  }
+
+  .about-textbox-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .about-textbox-content {
+    font-size: 1.1rem;
+  }
+}

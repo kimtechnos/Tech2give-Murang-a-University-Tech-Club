@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import videoSrc from "../../assets/3246359-uhd_3840_2160_25fps.mp4"; // Ensure the path is correct
+import videoSrc from "../../assets/3246359-uhd_3840_2160_25fps.mp4";
 
 const Hero = () => {
   return (

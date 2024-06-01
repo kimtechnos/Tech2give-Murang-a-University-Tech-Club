@@ -8,7 +8,6 @@ import Tracks from "./pages/Tracks/Tracks";
 const App = () => {
   return (
     <>
-      {/*  */}
       <BrowserRouter>
         <Header />
         <Routes>
