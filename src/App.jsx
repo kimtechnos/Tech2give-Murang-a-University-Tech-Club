@@ -1,11 +1,10 @@
-
 import "./assets/globals.css";
-function App() {
-  return(
+import Header from "./components/Header/Header";
+const App = () => {
+  return (
     <>
-      <h1>hello kimtech </h1>
+      <Header />
     </>
-  )
- 
-}
+  );
+};
 export default App;
