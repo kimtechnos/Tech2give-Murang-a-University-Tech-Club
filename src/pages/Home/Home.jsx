@@ -1,4 +1,10 @@
+import Hero from "./Hero";
+import "./home.css";
 const Home = () => {
-  return <h2>Home</h2>;
+  return (
+    <section className="home">
+      <Hero />
+    </section>
+  );
 };
 export default Home;

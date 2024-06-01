@@ -1,0 +1,122 @@
+.hero {
+  min-height: 80vh;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  display: grid;
+  place-content: center;
+  padding: 1rem 0;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(31, 26, 26, 0.6), rgba(109, 100, 100, 0.8));
+  z-index: 0;
+}
+.hero-video {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.hero-textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+@media screen and (max-width: 36.187em) {
+  .hero-textbox {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 18.25em) {
+  .hero-textbox {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .hero-textbox p {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    width: 100%;
+  }
+}
+.hero-textbox h2 {
+  font-size: 6rem;
+  font-weight: 650rem;
+  color: var(--color-white);
+  width: 65%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 21.5em) {
+  .hero-textbox h2 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 12.68em) {
+  .hero-textbox h2 {
+    font-size: 2.5rem;
+  }
+}
+.hero-textbox p {
+  color: var(--color-white);
+  letter-spacing: 1.5px;
+  text-align: center;
+  list-style: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.hero-ctas a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background-color: var(--color-primary-light);
+  margin-right: 2rem;
+  border-radius: 100px;
+  color: var(--color-white);
+  text-decoration: capitalize;
+  font-weight: 600;
+}
+@media screen and (max-width: 19.875em) {
+  .hero-ctas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-ctas a {
+    margin: 0.5rem auto;
+  }
+}
+
+/* .hero-textbox {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-ctas a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-ctas a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  } */
