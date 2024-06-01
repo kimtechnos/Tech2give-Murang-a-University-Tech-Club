@@ -1,5 +1,5 @@
 import React from "react";
-import videoSrc from "../../assets/pexels-mikhail-nilov-9159047.jpg";
+
 import aboutImg from "../../assets/about.jpg";
 const About = () => {
   return (
