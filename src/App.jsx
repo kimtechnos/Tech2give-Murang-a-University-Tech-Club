@@ -2,7 +2,7 @@ import "./assets/globals.css";
 import Header from "./components/Header/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-// import Leadership from "./pages/Leadership/Leadership";
+
 import Events from "./pages/Events/Events";
 import Tracks from "./pages/Tracks/Tracks";
 import Footer from "./components/Footer/Footer";

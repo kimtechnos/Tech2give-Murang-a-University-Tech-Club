@@ -1,7 +1,7 @@
 import React from "react";
 import Leadership from "./Leadership";
 import dean1 from "../../assets/dean1.jpg";
-import g2 from "../../assets/g2.jpg";
+
 import g3 from "../../assets/g3.jpg";
 import g4 from "../../assets/g4.jpg";
 import g5 from "../../assets/g5.jpg";
