@@ -21,7 +21,7 @@ const Leaders = () => {
         fburl="fb.com"
         lnnurl="ln.com"
         field="Patron of the club"
-        biography="the school of it class."
+        biography="Dr. John Ndia is an experienced tech visionary and a highly respected mentor. He has a rich background in Computing and innovation, guiding the club towards success."
       />
       <Leadership
         image={g3}
@@ -30,7 +30,7 @@ const Leaders = () => {
         fburl="fb.com"
         lnnurl="ln.com"
         field="Chairperson of the club"
-        biography="the school of it class."
+        biography="Victory Njeri is a dynamic leader with a passion for technology and community building. She drives the club's initiatives with dedication and vision."
       />
       <Leadership
         image={l1}
@@ -39,7 +39,7 @@ const Leaders = () => {
         fburl="fb.com"
         lnnurl="ln.com"
         field=" Vice Chairperson of the club"
-        biography="the school of it class."
+        biography="Allan Muhari excels in tech skills and leadership within the tech community. His commitment ensures the club's growth and development"
       />
       <Leadership
         image={g4}
@@ -48,7 +48,7 @@ const Leaders = () => {
         fburl="fb.com"
         lnnurl="secretary of the club"
         field="Dean"
-        biography="the school of it class."
+        biography="Bridget Gitonga is highly organized and efficient, keeping the club's operations smooth. Her communication skills are key to our success."
       />
       <Leadership
         image={g5}
@@ -57,7 +57,7 @@ const Leaders = () => {
         fburl="fb.com"
         lnnurl="ln.com"
         field="treasurer of the club"
-        biography="the school of it class."
+        biography="Ruth Mutisya manages the club's finances with precision and care. Her financial literacy ensures our resources are well-utilized."
       />
       <Leadership
         image={l2}
@@ -66,7 +66,7 @@ const Leaders = () => {
         fburl="fb.com"
         lnnurl="ln.com"
         field="cyber security lead"
-        biography="the school of it class."
+        biography="Webster Ifedha is an expert in cybersecurity, protecting our digital assets. He is dedicated to educating members about online safety."
       />
       <Leadership
         image={l3}
@@ -75,7 +75,7 @@ const Leaders = () => {
         fburl="fb.com"
         lnnurl="ln.com"
         field=" UI/UX lead"
-        biography="the school of it class."
+        biography="Manase Gunga is passionate about creating intuitive and engaging user experiences. His designs elevate our projects to new heights."
       />
       <Leadership
         image={g3}
@@ -83,8 +83,8 @@ const Leaders = () => {
         twitterurl="x.com"
         fburl="fb.com"
         lnnurl="Mobile apps development lead"
-        field="Dean"
-        biography="the school of it class."
+        field="web development lead"
+        biography="Carolyne Githenduka specializes in web development, building robust and scalable applications. She leads our web projects with expertise."
       />
       <Leadership
         image={l4}
@@ -93,7 +93,7 @@ const Leaders = () => {
         fburl="fb.com"
         lnnurl="ln.com"
         field="web development lead"
-        biography="the school of it class."
+        biography="Stanley Amunze is an adept mobile app developer, creating innovative solutions. His work ensures our mobile presence is strong and effective."
       />
       <Leadership
         image={l2}
@@ -101,8 +101,8 @@ const Leaders = () => {
         twitterurl="x.com"
         fburl="fb.com"
         lnnurl="ln.com"
-        field=" cloud engineering lead"
-        biography="the school of it class."
+        field="  power platform lead"
+        biography=" Mbithe is a specialist in the Power Platform, driving innovation through automation and analytics. She empowers the club with her expertise."
       />
       <Leadership
         image={l1}
@@ -110,8 +110,8 @@ const Leaders = () => {
         twitterurl="x.com"
         fburl="fb.com"
         lnnurl="ln.com"
-        field="Dean"
-        biography="the school of it class."
+        field="Cloud Engineer"
+        biography="Paul Karanja is an expert in cloud engineering, optimizing our cloud infrastructure. His knowledge ensures our systems are efficient and reliable."
       />
       <Leadership
         image={dean1}
@@ -119,8 +119,8 @@ const Leaders = () => {
         twitterurl="x.com"
         fburl="fb.com"
         lnnurl="ln.com"
-        field="power platform lead"
-        biography="the school of it class."
+        field="fullstack Dev"
+        biography="Kimtech is a skilled full stack developer proficient in both front-end and back-end technologies. His expertise enables the creation of comprehensive and seamless web applications."
       />
     </section>
   );

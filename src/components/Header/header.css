@@ -40,7 +40,6 @@
   height: var(--size);
   display: grid;
   place-content: center;
-  /* color: white; */
 }
 .header-social-icon-wrapper svg {
   width: 3rem;

@@ -1,6 +1,7 @@
 import { HiOutlineMailOpen } from "react-icons/hi";
-import { ImLocation } from "react-icons/im";
+import { ImLocation, ImOpt } from "react-icons/im";
 import { MdCall } from "react-icons/md";
+
 const SocialInfo = ({ icon, label }) => {
   return (
     <div className="header-social-info">
