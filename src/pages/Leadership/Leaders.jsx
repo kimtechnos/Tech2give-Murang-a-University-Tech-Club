@@ -10,7 +10,6 @@ import l2 from "../../assets/l2.jpg";
 import l3 from "../../assets/l3.jpg";
 import l4 from "../../assets/l4.jpg";
 
-
 import "./leaders.css";
 const Leaders = () => {
   return (

@@ -1,80 +1,76 @@
-
-.members-section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2.6rem;
-    padding: 1rem;
-
+.members-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.6rem;
+  padding: 1rem;
 }
 .member {
-    background-color:var(--color-black-light);
-    border: 1px solid var(--color-white-light);
-    border-radius: 8px;
-    overflow: hidden;
-    width: 30rem;
-    margin: 1.6rem;
-    box-shadow: 0 4px 8px rgba(30, 20, 20, 0.1);
-    transition: transform 0.3s;
-   
-  }
-  
-  .member:hover {
-    transform: translateY(-5px);
-  }
-  
-  .member-image {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  
-  .member-image img {
-    width: 100%;
-    height: auto;
-    border-bottom: 2px solid var(--color-black-light);
-  }
-  
-  .social-media {
-    position: absolute;
-    top: 0.8rem;
-    left: 0.8rem;
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .social-media a {
-    color:var(--color-secondary);
-    background-color:var(--color-black);
-    padding: 0.6rem;
-    border-radius: 50%;
-    transition: background-color 0.3s;
-  }
-  
-  .social-media a:hover {
-    background-color:var(--color-black);
-  }
-  
-  .member-body {
-    padding: 3rem;
-  }
-  h3 {
-    margin: 0 0 8px;
-    font-size: 1.6em;
-    color:var(--color-primary-light);
-  }
-  
-  .member-body_field{
-    font-weight: bold;
-    font-size: 2rem;
-    margin-bottom: 0.8rem;
-    color:var(--color-secondary);
-  }
-  
-  .member-body_biography {
-    margin: 0;
-    color:var(--color-black);
-    line-height: 1.5;
-    font-weight: 500;
-  }
-  
+  background-color: var(--color-black-light);
+  border: 1px solid var(--color-white-light);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 30rem;
+  margin: 1.6rem;
+  box-shadow: 0 4px 8px rgba(30, 20, 20, 0.1);
+  transition: transform 0.3s;
+}
+
+.member:hover {
+  transform: translateY(-5px);
+}
+
+.member-image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.member-image img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid var(--color-black-light);
+}
+
+.social-media {
+  position: absolute;
+  top: 0.8rem;
+  left: 0.8rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-media a {
+  color: var(--color-secondary);
+  background-color: var(--color-black);
+  padding: 0.6rem;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.social-media a:hover {
+  background-color: var(--color-black);
+}
+
+.member-body {
+  padding: 3rem;
+}
+h3 {
+  margin: 0 0 8px;
+  font-size: 1.6em;
+  color: var(--color-primary-light);
+}
+
+.member-body_field {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  color: var(--color-secondary);
+}
+
+.member-body_biography {
+  margin: 0;
+  color: var(--color-black);
+  line-height: 1.5;
+  font-weight: 500;
+}

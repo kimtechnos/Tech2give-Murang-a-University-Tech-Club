@@ -177,16 +177,10 @@
     font-size: 1.1rem;
   }
 }
-/* .Carousel-root{
-    width: 64% !important;
-    margin: auto !important;
-    margin-top: 3% !important;
-} */
+
 .carousel .slide {
   background: #f8f6f6 !important;
   color: black;
-  /* margin-bottom: 20rem; */
-  /* height: 100%; */
 }
 
 .carousel .slide img {
@@ -271,8 +265,3 @@
   position: absolute;
   top: 35% !important;
 }
-
-/* .App {
-    text-align: center;
-  }
-   */
