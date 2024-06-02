@@ -6,6 +6,7 @@ import sec from "../../assets/sec.jpg";
 import pow from "../../assets/power.jpg";
 import grph from "../../assets/graph.jpg";
 import cld from "../../assets/cloud.jpg";
+import app from "../../assets/app.jpg";
 
 const Events = () => {
   return (
@@ -26,7 +27,7 @@ const Events = () => {
         description=" every Wednesday from 6pm to 9pm at computer lab F04, led by Carolyne Githenduka."
       />
       <Event
-        image={l4}
+        image={app}
         title="Mobile apps development"
         description="every Thursday from 4pm to 7pm led by Stanley Amunze."
       />
