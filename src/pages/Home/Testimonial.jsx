@@ -1,6 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import test from "../../assets/test.jpg";
+import test from "../../assets/dean.jpg";
 const Testimonial = () => {
   return (
     <Carousel

@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import Leadership from "./pages/Leadership/Leadership";
 import Events from "./pages/Events/Events";
 import Tracks from "./pages/Tracks/Tracks";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/tracks" element={<Tracks />} />
           <Route path="/events" element={<Events />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
