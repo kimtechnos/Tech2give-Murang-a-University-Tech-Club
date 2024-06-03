@@ -1,6 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import test from "../../assets/dean.jpg";
+import kim from "../../assets/Francis Kimani.jpg";
 const Testimonial = () => {
   return (
     <Carousel
@@ -12,7 +12,7 @@ const Testimonial = () => {
       interval={6100}
     >
       <div>
-        <img src={test} />
+        <img src={kim} />
         <div className="myCarousel">
           <h3>Francis Kimani</h3>
           <h4>React dev</h4>
@@ -24,7 +24,7 @@ const Testimonial = () => {
         </div>
       </div>
       <div>
-        <img src={test} />
+        <img src={kim} />
         <div className="myCarousel">
           <h3>Francis Kimani</h3>
           <h4>React dev</h4>
@@ -37,7 +37,7 @@ const Testimonial = () => {
       </div>
 
       <div>
-        <img src={test} />
+        <img src={kim} />
         <div className="myCarousel">
           <h3>Francis Kimani</h3>
           <h4>React dev</h4>
